@@ -4,6 +4,8 @@ from make_pred import make_prediction
 import json
 import pandas as pd
 import plotly.express as px
+import XGBClassifier
+import make_prediction
 import xgboost 
 from xgboost import XGBClassifier
 # read data

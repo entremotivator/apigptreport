@@ -4,6 +4,11 @@ from make_pred import make_prediction
 import json
 import pandas as pd
 import plotly.express as px
+import xgboost 
+from xgboost import XGBClassifier
+# read data
+from sklearn.datasets import load_iris
+from sklearn.model_selection import train_test_split
 
 # Setup data from csv
 df = pd.read_csv("iris.data",

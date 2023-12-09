@@ -1,9 +1,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import mean_absolute_error
-from xgboost import XGBClassifier
+
 
 # Setup data
 df = pd.read_csv("iris.data",

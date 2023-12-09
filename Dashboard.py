@@ -12,7 +12,6 @@ df = pd.read_csv("iris.data",
 
 # Make page
 st.set_page_config(page_title="🚀 GPT Report Card 📊")
-st.title("🚀 GPT Report Card 📊")
 
     st.markdown("### TruLens Dashboard\n\n🔍 Track Language Models (LLM) and agents with detailed metrics and self-improvement skills.\n\n"
                 "✨ **Key Features:**\n"

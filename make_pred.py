@@ -1,5 +1,4 @@
 import json
-from xgboost import XGBClassifier
 
 
 def make_prediction(x):

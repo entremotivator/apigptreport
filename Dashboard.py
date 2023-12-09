@@ -11,9 +11,13 @@ df = pd.read_csv("iris.data",
 
 
 # Make page
-st.set_page_config(page_title="Iris Dataset")
-st.header("Iris Machine Learning Project")
-st.markdown("Deployment of the Iris dataset machine learning model using XGBoost.")
-st.markdown("Use this dashboard to understand the data and to make predictions.")
-st.markdown("")
+st.set_page_config(page_title="🚀 GPT Report Card 📊")
+st.title("🚀 GPT Report Card 📊")
+
+    st.markdown("### TruLens Dashboard\n\n🔍 Track Language Models (LLM) and agents with detailed metrics and self-improvement skills.\n\n"
+                "✨ **Key Features:**\n"
+                "1. Real-time performance metrics 📈\n"
+                "2. Personalized improvement suggestions 🌟\n"
+                "3. Historical analysis for continuous learning 🔄\n"
+                "4. User-friendly interface for easy navigation 🖥️")
 st.image("img.png")

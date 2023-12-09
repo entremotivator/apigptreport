@@ -7,7 +7,6 @@ import plotly.express as px
 import XGBClassifier
 import make_prediction
 import xgboost 
-from xgboost import XGBClassifier
 # read data
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split

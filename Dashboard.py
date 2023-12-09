@@ -13,7 +13,7 @@ df = pd.read_csv("iris.data",
 # Make page
 st.title("🚀 GPT Report Card 📊")
 
-  st.markdown("### TruLens Dashboard\n\n🔍 Track Language Models (LLM) and agents with detailed metrics and self-improvement skills.\n\n"
+st.markdown("### TruLens Dashboard\n\n🔍 Track Language Models (LLM) and agents with detailed metrics and self-improvement skills.\n\n"
                 "✨ **Key Features:**\n"
                 "1. Real-time performance metrics 📈\n"
                 "2. Personalized improvement suggestions 🌟\n"

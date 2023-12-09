@@ -3,7 +3,6 @@ import numpy as np
 import json
 import pandas as pd
 import plotly.express as px
-import make_prediction
 from make_pred import make_prediction
 import xgboost 
 # read data
